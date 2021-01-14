@@ -1,4 +1,4 @@
-@media (max-width:688px) { 
+@media only screen and (max-width:576px) { 
     /* .header {
           background-color: #FFFBF1;
        } */
@@ -30,29 +30,29 @@
     width: 82%;
 }
 .header .button {
-    font-size: 18px;
-    height: 70px;
+    font-size: 14px;
+    height: 55px;
 }
 .header .responsive-1 {
-      width: 88%;
-      /* margin-top: 3rem; */
+      width: 100%;
+      margin-top: 1rem;
 }
 #section{
       display: none;     
 }
 .header .height1 {
-    width: 88%;
-    margin: 22px 0px 0px 29px;
-    padding: 11px 26px 20px 29px;
+    width: 94%;
+    margin: 14px 1px 0px 15px;
+    padding: 33px 33px 26px 34px;
 }
 .header .height2 {
-    width: 87%;
-    padding: 27px 94px 46px 84px;
-    margin: 24px 0px 0px 36px;
+    width: 89%;
+    padding: 18px 43px 47px 52px;
+    margin: 20px 0px 0px 24px;
 }
 .header .height3 {
-    width: 88%;
-    padding: 12px 64px 54px 71px;
+    width: 89%;
+    padding: 40px 52px 47px 56px;
     margin: 28px 0px 0px 27px;
 }
 .sec-5 {
@@ -67,7 +67,7 @@
     flex-direction: column-reverse;
 }
  .header .section-4 .sec-4 .margin-auto {
-    height: 16rem;
+    height: 18rem;
     font-weight: 600;
     padding: 18px;
     border-radius: 25px;
@@ -87,4 +87,9 @@
      opacity: 0.8;
      margin: 0px 30px;
  }
+ .sec-5 .hgt , .hgt-2 , .hgt-3 {
+    height: 298px;
+    width: 88%;
+    margin: 11px 0px 0px 28px;
+    padding: 16px 13px 13px 18px;
 }
