@@ -1,0 +1,214 @@
+.article-2{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+#section{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #112d42;
+}
+#section::before{
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 50%;
+    height: 100%;
+    background: #03a9f4;
+}
+#section .container-1{
+    position: relative;
+    min-width: 1200px;
+    min-height: 590px;
+    display: flex;
+    z-index: 1000;
+}
+#section .container-1 .contact-section {
+    position: absolute;
+    top: 40px;
+    width: 460px;
+    background: #0f3959;
+    z-index: 1;
+    padding: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0px 6px 12px;
+}
+#section .container-1 .contact-section .ul {
+    position: relative;
+    margin: 20px 0px;
+}
+#section .container-1 .contact-section h2{
+    color: #f7f6f6;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+}
+#section .container-1 .contact-section .ul li {
+    position: relative;
+    list-style: none;
+    display: flex;
+    margin: 16px 0px;
+    cursor: pointer;
+    align-items: flex-start;
+}
+#section .container-1 .contact-section .ul li span:nth-child(1){
+   width: 50px;
+   min-width: 50px;
+}
+#section .container-1 .contact-section .ul li span:nth-child(1) img{
+    max-width: 100%;
+    filter: invert(1);
+    opacity: 0.8;
+}
+#section .container-1 .contact-section .ul li span:nth-child(2) {
+    color: rgb(228, 224, 224);
+    margin-left: 9px;
+    margin-top: 14px;
+    font-weight: 500;
+    opacity: 0.5;
+}
+#section .container-1 .contact-section .ul li:hover span:nth-child(1) img,
+#section .container-1 .contact-section .ul li:hover span:nth-child(2) {
+    opacity: 1;
+}
+#section .container-1 .contact-section .help {
+    position: relative;
+    display: flex;
+}
+#section .container-1 .contact-section .help li{
+    list-style: none;
+    margin-right: 25px;
+}
+#section .container-1 .contact-section .help li a {
+    text-decoration: none;
+}
+#section .container-1 .contact-section .help li a img{
+    filter: invert(1);
+    opacity: 0.8;
+}
+#section .container-1 .contact-section .help li:hover a img {
+    background-color: #f7f6f6;
+    opacity: 1;
+}
+
+.container-1 .help img{
+    height: 25px;
+}
+.container-1 .ul img{
+    height: 48px;
+}
+#section .container-1 .contact-form {
+    position: absolute;
+    padding: 40px ;
+    margin-left: 460px;
+    padding-left: 70px;
+    background: #fff;
+    width: calc(100%-460px);
+    height: 100%;
+    box-shadow: 0px 50px 50px rgba(0,0,0,0.5);
+}
+#section .container-1 .contact-form h2{
+    color: #0f3959;
+    font-size: 26px;
+    font-weight: 500;
+    margin-left: 232px;
+}
+#section .container-1 .contact-form .form-box {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 25px;
+}
+#section .container-1 .contact-form .form-box .input-box {
+    position: relative;
+    margin: 0px 0px 35px 0px;
+}
+section .container-1 .contact-form .form-box .input-box.w50{
+    width: 47%;
+}
+section .container-1 .contact-form .form-box .input-box.w100{
+    width: 100%;
+}
+section .container-1 .contact-form .form-box .input-box input,
+section .container .contact-form .form-box .input-box textarea{
+    resize: none;
+    width: 100% !important;
+    padding: 10px 0px;
+    font-size: 15px;
+    font-weight: 300;
+    color: black;
+    border: none;
+    border-bottom: 1px solid #777;
+    outline: none;
+}
+section .container-1 .contact-form .form-box .input-box textarea{
+    min-height: 80px;
+}
+section .container-1 .contact-form .form-box .input-box span{
+    position: absolute;
+    left: 0;
+    padding: 12px 0px;
+    font-size: 18px;
+    font-weight: 300;
+    color: #333;
+    transition: 0.3s;
+    pointer-events: none;
+}
+
+section .container-1 .contact-form .form-box .input-box input:focus ~ span,
+section .container .contact-form .form-box .input-box textarea:focus ~ span,
+section .container .contact-form .form-box .input-box input:valid ~ span,
+section .container .contact-form .form-box .input-box textarea:valid ~ span
+{
+    transform: translateY(-20px);
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #ff568c;
+}
+section .container-1 .contact-form .form-box .input-box input[type="submit"]{
+    position: relative;
+    cursor: pointer;
+    background: #0f3959;
+    color: #fff;
+    border: none;
+    max-width: 150px;
+    padding: 12px;
+}
+section .container-1 .contact-form .form-box .input-box input[type="submit"]:hover{
+    background: #be486e;
+}
+@media (max-width:768px){
+   #section .contact-section {
+    display: block;
+    width: 50%;
+    text-align: center;
+    margin-left: 40%;
+    margin-top: -39px;
+   }
+   #section .contact-form{
+    display: block;
+    width: 50%;
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 16rem;
+   }
+   #section .contact-form h2{
+    margin-right: 133px;
+    margin-left: 70px;
+   }
+   #section .container{
+       min-width: 1015px;
+   }
+}
+.contact-section .input-box.input-box.w100 input{
+    width: 60%;
+}
