@@ -1,11 +1,90 @@
-@media (max-width:614px) {
-   .header {
-       background-color: black;
-   }
-   
-   .img {
+@media (max-width:688px) { 
+    /* .header {
+          background-color: #FFFBF1;
+       } */
+    .header .section-1 {
+           height: 880px;
+       }
+  .header .main .img {
     width: 43%;
     margin-left: 60px;
          }
-
+  .header .main {
+      margin-right: 2rem;
+  }  
+   .header .first {
+    margin-top: 16px;
+    opacity: 0.9;
+    color: orange;
+    font-family: 'Anton', sans-serif;
+    font-size: 50px;
+}
+.header .secend{
+      font-size: 51px;
+      margin-top: 11px;
+}
+.header #content p {
+    font-size: 18px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    opacity: 0.9;
+    width: 82%;
+}
+.header .button {
+    font-size: 18px;
+    height: 70px;
+}
+.header .responsive-1 {
+      width: 88%;
+      /* margin-top: 3rem; */
+}
+#section{
+      display: none;     
+}
+.header .height1 {
+    width: 88%;
+    margin: 22px 0px 0px 29px;
+    padding: 11px 26px 20px 29px;
+}
+.header .height2 {
+    width: 87%;
+    padding: 27px 94px 46px 84px;
+    margin: 24px 0px 0px 36px;
+}
+.header .height3 {
+    width: 88%;
+    padding: 12px 64px 54px 71px;
+    margin: 28px 0px 0px 27px;
+}
+.sec-5 {
+    margin-top: 50rem ;
+}
+.header .section-4 #services img {
+    width: 100%;
+    margin: 26px 0px 0px 0px;
+}
+.header .section-4 .sec-4 {
+    display: flex;
+    flex-direction: column-reverse;
+}
+ .header .section-4 .sec-4 .margin-auto {
+    height: 16rem;
+    font-weight: 600;
+    padding: 18px;
+    border-radius: 25px;
+    background-color: white;
+    width: 70%;
+    margin: 74px auto;
+    box-shadow: 8px 0px 27px rgb(192, 188, 188);
+    flex-direction: column;
+ }
+ .header .section-4 .sec-4 .margin-auto h3 {
+     text-align: center;
+     opacity: 0.9;
+     margin-top: 1rem;
+ }
+ .header .section-4 .sec-4 .margin-auto p{
+     text-align: center;
+     opacity: 0.8;
+     margin: 0px 30px;
+ }
 }

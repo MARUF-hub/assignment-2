@@ -5,6 +5,16 @@ body{
 body img:hover{
     cursor: pointer;
 }
+.responsive-1{
+    width: 88%;
+
+}
+.p-style{
+    font-size:25px; 
+    font-family:'Ubuntu Condensed', sans-serif;
+    opacity: 0.9;
+    width: 71%;
+}
 .main {
     background-color: #FFFBF1;
 }
@@ -37,7 +47,8 @@ body img:hover{
     width: 100%;
 }
 .width{
-    width: 78%;
+    margin-top: 1rem;
+    width: 76%;
 }
 .width-42 {
     width: 42%;
