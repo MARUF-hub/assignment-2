@@ -1,6 +1,11 @@
-@media (max-width:"688px") {
-   body{
+@media (max-width:614px) {
+   .header {
        background-color: black;
    }
+   
+   .img {
+    width: 43%;
+    margin-left: 60px;
+         }
 
 }
